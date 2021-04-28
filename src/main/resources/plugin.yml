@@ -1,0 +1,10 @@
+name: RefreshChunks
+main: com.vanillage.refreshchunks.RefreshChunks
+version: 1.0
+api-version: 1.16
+commands:
+  refreshchunks:
+    description: All commands for RefreshChunks.
+    usage: '§cUsage: /<command> [player]'
+    permission: refreshchunks.command.refreshchunks
+    permission-message: §cYou don't have permissions.
