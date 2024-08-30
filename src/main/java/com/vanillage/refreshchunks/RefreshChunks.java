@@ -6,19 +6,19 @@ import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.craftbukkit.v1_16_R3.CraftWorld;
-import org.bukkit.craftbukkit.v1_16_R3.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_21_R1.CraftWorld;
+import org.bukkit.craftbukkit.v1_21_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.destroystokyo.paper.util.misc.PooledLinkedHashSets.PooledObjectLinkedOpenHashSet;
 
-import net.minecraft.server.v1_16_R3.Chunk;
-import net.minecraft.server.v1_16_R3.ChunkCoordIntPair;
-import net.minecraft.server.v1_16_R3.EntityPlayer;
-import net.minecraft.server.v1_16_R3.Packet;
-import net.minecraft.server.v1_16_R3.PlayerChunk;
-import net.minecraft.server.v1_16_R3.PlayerChunkMap;
+import net.minecraft.server.v1_21_R1.Chunk;
+import net.minecraft.server.v1_21_R1.ChunkCoordIntPair;
+import net.minecraft.server.v1_21_R1.EntityPlayer;
+import net.minecraft.server.v1_21_R1.Packet;
+import net.minecraft.server.v1_21_R1.PlayerChunk;
+import net.minecraft.server.v1_21_R1.PlayerChunkMap;
 
 public final class RefreshChunks extends JavaPlugin {
     @Override
